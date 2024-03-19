@@ -30,7 +30,7 @@ fun checkLen(text:Array<String>):Int{
 }
 
 fun countVowels(word:String):Int{
-var vowels = listOf<Char>('a', 'e', 'i', 'o', 'u')
+    var vowels = listOf<Char>('a', 'e', 'i', 'o', 'u')
     var vowelCount = 0
     for (v in word){
         if(v in vowels){
